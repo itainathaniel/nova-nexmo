@@ -1,9 +1,10 @@
 {
     "name": "itainathaniel/nova-nexmo",
-    "description": "A Laravel Nova tool.",
+    "description": "Laravel Nova card & tool to interact with Nexmo.com",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "nexmo"
     ],
     "homepage": "https://github.com/itainathaniel/nova-nexmo",
     "license": "MIT",
