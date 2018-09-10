@@ -1,0 +1,39 @@
+{
+    "name": "itainathaniel/nova-nexmo",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "homepage": "https://github.com/itainathaniel/nova-nexmo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Itai Nathaniel",
+            "email": "itainathaniel@gmail.com",
+            "homepage": "http://it.ai",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "nexmo/laravel": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Itainathaniel\\NovaNexmo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Itainathaniel\\NovaNexmo\\NovaNexmoServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
