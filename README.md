@@ -5,11 +5,6 @@ A card & tool for interacting with [Nexmo](https://www.nexmo.com/)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/itainathaniel/nova-nexmo.svg?style=flat-square)](https://packagist.org/packages/itainathaniel/nova-nexmo)
 [![Total Downloads](https://img.shields.io/packagist/dt/itainathaniel/nova-nexmo.svg?style=flat-square)](https://packagist.org/packages/itainathaniel/nova-nexmo)
 
-
-![screenshot of the balance card](https://itainathaniel.github.io/nova-nexmo/balance.png)
-
-![screenshot of the sending SMS tool](https://itainathaniel.github.io/nova-nexmo/send-sms.png)
-
 ## Installation
 
 This package relies on [Nexmo's Laravel package](https://github.com/Nexmo/nexmo-laravel). If you hadn't installed it already, do that now and follow their instructions, up until the end, where you have Nexmo's key & secret in your `config/nexmo.php` file.
